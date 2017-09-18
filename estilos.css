@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Ubuntu');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #eaeaea;
+}
+
+main{
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+    max-width: 600px;
+    background: #fff;
+    margin: auto;
+    margin-top: 10vh;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0px -8px 16px 0px #dbdbdb;
+}
+
+.container img{
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+}
+
+h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+hr{
+    width: 200px;
+    height: 1px;
+    margin: auto;
+    margin-top: 20px;
+    background: #bdbcbc;
+    border-style: none;
+}
+
+.container h2{
+    margin-top: 40px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.container p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.container-input{
+    display: flex;
+    margin-top: 40px;
+}
+
+.container input[type="text"]{
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin-top: 40px;
+    font-size: 16px;
+    border-style: none;
+    outline: 0px;
+    transition: box-shadow 300ms;
+    background: #f4f4f4;
+    color: #262626;
+    margin: 10px;
+    text-align: center;
+}
+
+.container input[type="text"]:focus{
+    border: 1px solid #1ab188;
+}
+
+.container input[type="button"]{
+    width: 100%;
+    max-width: 200px;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border-style: none;
+    outline: 0px;
+    background: #1ab188;
+    color: white;
+    cursor: pointer;
+    transition: background 300ms;
+}
+
+.container input[type="button"]:hover{
+    background: #3aba97;
+}
+
+.container input[type="button"]:active{
+    background: #5cd1b2;
+}
+
+
+@media screen and (max-width: 680px){
+    body{
+        background: white;
+    }
+    
+    .container{
+        box-shadow: 0px 0px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .container input[type="text"]{
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin-top: 40px;
+    font-size: 16px;
+    border-style: none;
+    outline: 0px;
+    transition: box-shadow 300ms;
+    background: #f4f4f4;
+    color: #262626;
+    margin: 2px;
+    text-align: center;
+    }
+    
+}
+
+
+
+
+
+
+
+
